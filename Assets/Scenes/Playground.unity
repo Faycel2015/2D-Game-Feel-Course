@@ -5998,6 +5998,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1345907577}
+  - {fileID: 1152419898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &817729410
@@ -11963,6 +11964,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023720133}
   m_CullTransparentMesh: 1
+--- !u!1 &1152419897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152419898}
+  - component: {fileID: 1152419899}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1152419898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152419897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811031080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152419899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152419897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f744689fc867548708ad4765ee0be401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _masterVolume: 1
+  _soundsCollectionSO: {fileID: 11400000, guid: a793216dbaca749d19da3d84c6c4b04d, type: 2}
+  _sfxMixerGroup: {fileID: 4511811456013460636, guid: bac59a7fe445c4391a070caa88431cd2, type: 2}
+  _musicMixerGroup: {fileID: -2165753723210493142, guid: bac59a7fe445c4391a070caa88431cd2, type: 2}
 --- !u!1 &1154856999
 GameObject:
   m_ObjectHideFlags: 0
@@ -12488,7 +12537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ab03094c7624f8fa12f5351a2787db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _discoBallPartyTime: 5
+  _discoBallPartyTime: 7
   _discoGlobalLightIntensity: 0.2
   _globalLight: {fileID: 619394801}
 --- !u!1 &1414218011
