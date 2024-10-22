@@ -18294,8 +18294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e652642db6260344cb636626629dc1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _splatterPrefabs: {fileID: 0}
-  _deathVFX: {fileID: 0}
+  _splatterPrefabs: {fileID: 4269695861430137172, guid: 45ad171c7765941328848ff1f8354938, type: 3}
+  _deathVFX: {fileID: 6741062831392725350, guid: 0864f7de1e84e46d39c7294dac2ea723, type: 3}
   _startingHealth: 5
 --- !u!114 &2011273896
 MonoBehaviour:
