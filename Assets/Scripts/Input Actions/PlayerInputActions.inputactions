@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Grenade",
+                    "type": "Button",
+                    "id": "c645eac8-8fe6-4d27-93bf-ef3e652c2fe1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -103,11 +112,22 @@
                 {
                     "name": "",
                     "id": "71c5cf1e-d350-4f5d-bdbc-fe308995bbcc",
-                    "path": "<Mouse>/backButton",
+                    "path": "<Mouse>/middleButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jetpack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28af7c54-6fc2-40e8-891f-fb736487e2aa",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grenade",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

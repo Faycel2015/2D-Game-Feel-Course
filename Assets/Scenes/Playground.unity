@@ -13106,6 +13106,8 @@ MonoBehaviour:
   _gunFireCD: 0.2
   _muzzleFlash: {fileID: 205856944}
   _muzzleFlashTime: 0.02
+  _grenadePrefab: {fileID: 9142244321037235667, guid: d7ab75cbb203c41da81b4aa7786edc3f, type: 3}
+  _grenadeShootCD: 0.8
 --- !u!95 &1414218016
 Animator:
   serializedVersion: 5
@@ -18981,7 +18983,7 @@ MonoBehaviour:
   _extraGravity: 900
   _gravityDelay: 0.2
   _coyoteTime: 0.1
-  _jetPackTime: 0.6
+  _jetpackTime: 0.6
   _jetpackStrength: 11
 --- !u!114 &2011273897
 MonoBehaviour:
