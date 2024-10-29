@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d14c654bf4a0c4e55b73c46cdcce5766, type: 3}
-  m_Name: Grenade Shoot
+  m_Name: Player Hit
   m_EditorClassIdentifier: 
   AudioType: 0
-  Clip: {fileID: 8300000, guid: 6d6f161d33327420ca75adbeaef33715, type: 3}
+  Clip: {fileID: 8300000, guid: eb4662dcc730942629ec8e31d432b614, type: 3}
   Loop: 0
   RandomizePitch: 0
   RandomPitchRangeModifier: 0.1
-  Volume: 1.57
-  Pitch: 0.77
+  Volume: 1.22
+  Pitch: 1
